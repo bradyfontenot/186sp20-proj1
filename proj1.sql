@@ -26,13 +26,13 @@ AS
 -- Question 1iii
 CREATE VIEW q1iii(birthyear, avgheight, count)
 AS
-  SELECT birthyear, avg(height), count(*)
-  FROM people
-  WHERE birthyear IS NULL
-  UNION
+  -- SELECT birthyear, avg(height), count(*)
+  -- FROM people
+  -- WHERE birthyear IS NULL
+  -- UNION
   SELECT birthyear, avg(height), count(birthyear)
   FROM people
-  GROUP BY people.birthyear
+  GROUP BY birthyear
   ORDER BY birthyear ASC
 ;
 
