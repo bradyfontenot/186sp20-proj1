@@ -1,0 +1,5 @@
+ playerid | namefirst | namelast | yearid | slg 
+----------+-----------+----------+--------+-----
+        1 |         1 |        1 |      1 |   1
+(1 row)
+

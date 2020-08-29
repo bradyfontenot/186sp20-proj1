@@ -1,0 +1,5 @@
+ playerid | namefirst | namelast | schoolid 
+----------+-----------+----------+----------
+        1 |         1 |        1 |        1
+(1 row)
+

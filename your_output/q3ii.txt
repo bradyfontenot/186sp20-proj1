@@ -1,0 +1,5 @@
+ playerid | namefirst | namelast | lslg 
+----------+-----------+----------+------
+        1 |         1 |        1 |    1
+(1 row)
+
